@@ -7,8 +7,9 @@ import { Component, ViewChild } from '@angular/core';
 })
 export class AppComponent {
  title = 'app works!';
- myCount: number = 10;
+	
+ componentCounterValue: number = 10;
   counterChange(event) {
-    this.myCount = event;
+    this.componentCounterValue = event;
   }
 }
