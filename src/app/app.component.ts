@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { CounterComponent } from './counterComponent/counter.component';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,5 @@ import { CounterComponent } from './counterComponent/counter.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = CounterComponent;
+ title = 'app works!';
 }
